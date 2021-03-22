@@ -1,0 +1,57 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="./styles/main.css">
+    <title>Unique</title>
+</head>
+
+<body class="idbody">
+
+<div id="topo" align="center">
+        <img src="/img/test.png">
+</div>
+        <div id="divulg">
+            <a href="https://www.instagram.com/unique.saudeintegrada/"> <img class="ico" align="right" src="/ico/insta.jpg"></img></a>
+            <a href="http://twixar.me/mKMK"> <img class="ico" align="right" src="/ico/Whats.png"></img></a>
+            <a href="https://www.facebook.com/uniquesaudeintegrada"> <img class="ico" align="right" src="/ico/face.png"></img></a>
+        </div>
+    <div id="divbtn">
+        <button class="btt">Tratamentos Faciais</button>
+        <button class="btt" id="tratamento.corpo">Tratamentos Corporais</button>
+        <button class="btt">Massagens</button>
+        <button class="btt">Localização</button>
+        <button class="btt">Equipe</button>
+    </div>
+<div id="corpo">
+
+    <img id="img-gordura" src="./img/GorduraLocalizada.jpg" width="250" height="180"><br>Gordura Localizada</img>
+</div>
+
+<script>
+    var btt = document.querySelector("button#tratamento.corpo");
+    btt.onclick = function() {
+      window.location.href = "corporais.html";
+    }
+    </script>
+    <script>
+      var btt = document.querySelector("button#omelete");
+      btt.onclick = function() {
+        window.location.href = "omelete.html";
+      }
+      </script>
+        <script>
+          var btt = document.querySelector("button#petiscos");
+          btt.onclick = function() {
+            window.location.href = "petiscos.html";
+          }
+          </script>
+            <script>
+              var btt = document.querySelector("button#bebidas");
+              btt.onclick = function() {
+                window.location.href = "bebidas.html";
+              }
+              </script>
+
+</body>
+</html>
